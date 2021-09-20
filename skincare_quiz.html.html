@@ -1,0 +1,178 @@
+﻿<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>    Skincare Quiz    </title>
+
+  <meta name="author" content="   Thu Phuong Pham ptp151020@gmail.com    ">
+
+  <link rel="stylesheet" href="skincare_quiz.css.css">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+
+<body>
+
+
+<header>
+  <h1 id="title"> Skincare Quiz</h1>
+        <p id="description">(Complete the form to find the best product for your skin)</p>
+</header>
+
+<form id="survey-form">
+
+<div id="wrapper">
+
+<div id="form-group">
+
+  <label id="name-label" for="name"> Name</label>
+
+    <input id="name"
+           type="text"
+           name="name"
+           class="form-control"
+           placeholder="Write your name"
+           required>
+
+</div>
+
+<div id="form-group">
+  <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+</div>
+
+<div id="form-group">
+  <label id="number-label" for="number">Age</label>
+    <input id="number"
+           name="age"
+           type="number"
+           class="form-control"
+           placeholder="select"
+           min="01"
+           max="110"
+           required>
+</div>
+
+<div id="form-group">
+<p id="text-label">How you normally find information about skincare products?</p>
+<div id="content" class="content">
+<label>
+    <input
+      name="user-info"
+      value="Advertising"
+      type="radio"
+      class="input-radio"
+    />Advertising</label
+  >
+  <label>
+    <input
+      name="user-info"
+      value="Social-Media"
+      type="radio"
+      class="input-radio"
+    />Social Media</label
+  >
+
+  <label>
+    <input
+      name="user-info"
+      value="Others"
+      type="radio"
+      class="input-radio"
+    />Others</label>
+
+  </div>
+
+</div>
+
+<div id="form-group">
+  <p id="text-label">What is your skin concern?</p>
+
+<div id="content">
+<input type="checkbox" id="Acne-blemish" name="Acne-blemish" value="Acne-blemish">
+<label for="Acne-blemish "> Acne-blemish </label><br>
+
+<input type="checkbox" id="Aging" name="Aging" value="Aging">
+<label for="Aging"> Aging</label><br>
+
+<input type="checkbox" id="Pores" name="Pores" value="Pores">
+<label for="Pores"> Pores</label><br>
+
+ <input type="checkbox" id="Uneventone" name="Uneventone" value="Uneventone">
+<label for="Uneventone">Uneventone</label><br>
+
+ <input type="checkbox" id="Dark Spots-Hyperpigmentation" name="Dark Spots-Hyperpigmentation" value="Dark Spots-Hyperpigmentation">
+<label for="Dark Spots-Hyperpigmentation">Dark Spots-Hyperpigmentation</label><br>
+
+ <input type="checkbox" id="firming-lifting" name="firming-lifting" value="firming-lifting">
+<label for="firming-lifting"> Firming-lifting</label><br>
+
+<input type="checkbox" id="Others" name="Others" value="Others">
+<label for="Others"> Others</label> <br>
+
+</div>
+
+</div>
+
+<div id="form-group">
+
+  <p id="text-label">What is your skin type?</p>
+
+  <div id="content">
+    <select id="dropdown" name="skin-type" class="form-control"required>
+      <option disabled selected option>Select an option</option>
+      <option value="Combination">Combination skin</option>
+      <option value="sensitive">Sensitive skin</option>
+      <option value="dry">Dry skin</option>
+      <option value="oily">Oily skin</option>
+      <option value="normal">Normal skin</option>
+      <option value="other">Others</option>
+  </select> <br><br>
+
+</div>
+
+</div>
+
+<div id="form-group">
+
+  <lable for="textBox">Tell us more about your skin</lable><br>
+
+  <div id="content">
+
+ <textarea id="textBox" name="textBox">
+ </textarea> <br><br>
+
+</div>
+</div>
+
+<div id="form-group">
+
+ <div >
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+
+    </div>
+</div>
+
+</div>
+
+</form>
+
+
+</body>
+</html>
